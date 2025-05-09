@@ -1,0 +1,360 @@
+/* Modern Dark Theme Portfolio */
+
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Add these new color rules */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+p, span, div {
+    color: #e0e0e0;
+}
+
+input, textarea, select {
+    color: #e0e0e0 !important;
+}
+
+.dropdown-menu {
+    background-color: #111111;
+    border: 1px solid #222222;
+}
+
+.dropdown-item {
+    color: #e0e0e0;
+}
+
+.dropdown-item:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.alert {
+    color: #e0e0e0;
+}
+
+.alert-danger {
+    background-color: #2c1515;
+    border-color: #442222;
+    color: #ff9999;
+}
+
+.alert-success {
+    background-color: #152c15;
+    border-color: #224422;
+    color: #99ff99;
+}
+
+.alert-info {
+    background-color: #15152c;
+    border-color: #222244;
+    color: #9999ff;
+}
+
+.modal-content {
+    background-color: #111111;
+    color: #e0e0e0;
+}
+
+.modal-header {
+    border-bottom: 1px solid #222222;
+}
+
+.modal-footer {
+    border-top: 1px solid #222222;
+}
+
+.form-select {
+    background-color: #111111;
+    color: #e0e0e0;
+    border: 1px solid #333333;
+}
+
+.form-select:focus {
+    background-color: #151515;
+    border-color: #2d6cdf;
+    color: #e0e0e0;
+}
+
+.form-text {
+    color: #888888;
+}
+
+/* Header */
+header {
+    background-color: #111111;
+    border-bottom: 1px solid #222222;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    background-color: #111111 !important;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #cccccc !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Cards */
+.card {
+    background-color: #111111;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #222222;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #b0b0b0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2d6cdf;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2459b8;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid #2d6cdf;
+    color: #2d6cdf;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(45, 108, 223, 0.1);
+}
+
+/* Forms */
+.form-control {
+    background-color: #111111;
+    border: 1px solid #333333;
+    color: #ffffff;
+    padding: 0.7rem 1rem;
+    transition: all 0.3s ease;
+}
+
+/* File input specific styles */
+input[type="file"].form-control {
+    background-color: #111111;
+    color: #e0e0e0;
+    border-color: #333333;
+    padding: 0.375rem 0.75rem;
+}
+
+input[type="file"].form-control::-webkit-file-upload-button {
+    background-color: #2d6cdf;
+    color: #ffffff;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    margin-right: 0.75rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+input[type="file"].form-control::-webkit-file-upload-button:hover {
+    background-color: #2459b8;
+}
+
+input[type="file"].form-control::file-selector-button {
+    background-color: #2d6cdf;
+    color: #ffffff;
+    border: none;
+    padding: 0.375rem 0.75rem;
+    margin-right: 0.75rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+input[type="file"].form-control::file-selector-button:hover {
+    background-color: #2459b8;
+}
+
+.form-control:focus {
+    background-color: #151515;
+    border-color: #2d6cdf;
+    box-shadow: 0 0 0 0.2rem rgba(45, 108, 223, 0.15);
+    color: #ffffff;
+}
+
+.form-label {
+    color: #cccccc;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Profile */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #222222;
+}
+
+/* Tables */
+.table {
+    color: #e0e0e0;
+    background-color: #111111;
+}
+
+.table thead th {
+    color: #ffffff;
+    background-color: #0a0a0a;
+    border-color: #222222;
+}
+
+.table tbody td {
+    color: #e0e0e0;
+    background-color: #111111;
+    border-color: #222222;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Dashboard specific */
+.dashboard-projects {
+    background-color: #111111;
+    border-color: #222222;
+}
+
+.project-list {
+    background-color: #111111;
+}
+
+.project-list-item {
+    background-color: #111111;
+    border-color: #222222;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #0a0a0a;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #111111;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.table tbody tr:hover {
+    background-color: #111111;
+}
+
+/* Footer */
+footer {
+    background-color: #111111;
+    color: #888888;
+    padding: 2rem 0;
+    border-top: 1px solid #222222;
+}
+
+footer a {
+    color: #2d6cdf;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #2459b8;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444444;
+}
+
+/* Utilities */
+.bg-dark {
+    background-color: #111111 !important;
+}
+
+.border {
+    border-color: #222222 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 180px;
+    }
+    
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    
+    .card-img-top {
+        height: 160px;
+    }
+}
